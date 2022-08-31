@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!--A marcação <table> é construída junto com outros três elementos:
+<tr> (elemento de linha – table row): define nova linha na tabela.
+<th> (elemento de cabeçalho – table header): define o cabeçalho da tabela, que são as 
+colunas da tabela.
+<td> (elemento de conteúdo – table data): define o conteúdo da célula da tabela.
+OBS: TODOS OS ELEMENTOS CITADOS ACIMA DEPENDEM DE ABERTURA E FECHAMENTO-->
+
+<head>
+    <meta=charset="UTF-8">
+    <title>Elemento table</title>
+</head>
+
+<body>
+    <header>
+        <h1>Elemento < table ></table></h1>
+    </header>    
+
+    <article>
+        <table>
+            <tr>
+                <th>Mês</th>
+                <th>Poupança</th>
+            </tr>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$100,00</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$80,00</td>
+            </tr>
+        </table>
+        <br />
+    </article>
+    <footer>
+        <small>Instituto da Oportunidade Social</small>
+    </footer>
+</body>
+
+<!--A seguir temos os elementos thead tbody e tfoot que tambem podem ser utilizados juntamente com o elemento table, servem para criar tabelas de diferentes formas em HTML-->
+<body>
+<header>
+<h1>Elementos thead tbody e tfoot</h1>
+</header>
+
+<article>
+    <table>
+        <caption>Dinheiro poupado em 2022</caption>
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Poupança</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R#100,00</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$80,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Soma</td>
+                <td>R$180,00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br />
+</article>
+
+<footer>
+    <small>Instituto da Oportunidade Social</small>
+</footer>
+</body>
+
+</html>
